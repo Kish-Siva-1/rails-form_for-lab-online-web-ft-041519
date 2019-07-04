@@ -14,7 +14,6 @@ class StudentsController < ApplicationController
   end 
   
   def edit
-    binding.pry
     @student = Student.find(params[:id])  
   end
   
